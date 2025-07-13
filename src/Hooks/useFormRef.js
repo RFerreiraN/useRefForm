@@ -7,7 +7,6 @@ export const useFormRef = () => {
     password: ''
   })
 
-  const { email, password } = inputValue;
 
   const handleInput = ({ target }) => {
     const { name, value } = target;

@@ -3,9 +3,7 @@ import { useFormRef } from '../Hooks/useFormRef';
 
 export const UseRefForm = () => {
 
-  const {onSubmit, resetForm, handleInput, inputValue} = useFormRef({
-  
-  })
+  const {onSubmit, resetForm, handleInput, inputValue} = useFormRef()
 
   const { email, password } = inputValue;
 
